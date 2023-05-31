@@ -1,0 +1,32 @@
+$primary-color: white;
+
+
+.container {
+background-color: $primary-color;
+padding: 25px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 50vh;
+}
+
+.header {
+    color: black;
+    font-size: 35px;
+}
+
+.button {
+    background-color: $primary-color;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  .button:hover {
+    background-color:rgb(216, 221, 75);
+  }
