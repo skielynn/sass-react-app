@@ -8,7 +8,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-height: 50vh;
+height: 30vh;
 }
 
 .header {
@@ -28,5 +28,34 @@ height: 50vh;
   }
 
   .button:hover {
-    background-color:rgb(216, 221, 75);
+    background-color:rgb(233, 236, 124);
   }
+  
+  .navbar {
+    background-color: #4787c8;
+    padding: 10px;
+  
+    &_menu {
+      list-style-type: none;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+    }
+  
+    &_item {
+      margin-right: 10px;
+    }
+  
+    &_link {
+      color: #fff;
+      text-decoration: none;
+  
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  
+  /* Additional styles for other components */
+  
