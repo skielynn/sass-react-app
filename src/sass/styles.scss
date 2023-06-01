@@ -24,10 +24,6 @@ height: 30vh;
     border-radius: 5px;
     transition: background-color 0.3s ease-in-out;
   }
-
-  .button:hover {
-    background-color:rgb(233, 236, 124);
-  }
   
   .navbar {
     background-color: #4787c8;
@@ -63,7 +59,7 @@ $font-color-light: #000;
 
 // dark
 $primary-color-dark: #0b0555;
-$secondary-color-dark: #c3421a;
+$secondary-color-dark: #1e100c;
 $background-color-dark: #000;
 $font-color-dark: #fff;
 
