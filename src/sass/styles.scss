@@ -1,8 +1,6 @@
-$primary-color: white;
-
 
 .container {
-background-color: $primary-color;
+background-color: white;
 padding: 25px;
 display: flex;
 flex-direction: column;
@@ -17,7 +15,7 @@ height: 30vh;
 }
 
 .button {
-    background-color: $primary-color;
+    background-color: white;
     color: rgb(0, 0, 0);
     padding: 10px 20px;
     border: none;
@@ -54,6 +52,38 @@ height: 30vh;
       &:hover {
         text-decoration: underline;
       }
+    }
+  }
+  
+  // light
+$primary-color-light: #87b6e5;
+$secondary-color-light: #e9c999;
+$background-color-light: #fff;
+$font-color-light: #000;
+
+// dark
+$primary-color-dark: #0b0555;
+$secondary-color-dark: #c3421a;
+$background-color-dark: #000;
+$font-color-dark: #fff;
+
+.theme-light {
+    background-color: $background-color-light;
+    color: $font-color-light;
+  
+    .button {
+      background-color: $primary-color-light;
+      color: $secondary-color-light;
+    }
+  }
+  
+  .theme-dark {
+    background-color: $background-color-dark;
+    color: $font-color-dark;
+  
+    .button {
+      background-color: $primary-color-dark;
+      color: $secondary-color-dark;
     }
   }
   
