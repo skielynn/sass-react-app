@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# Dummy Test App - SCSS / SASS Techniques 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+This Dummy Test App is a sample application built to showcase the usage of SCSS (Sassy CSS) and SASS (Syntactically Awesome Stylesheets) techniques. It is developed using React framework and utilizes SCSS & Java technologies. 
 
-In the project directory, you can run:
+## Technologies 
+ 
+This Dummy Test App includes the following technologies :
 
-### `npm start`
+React - A Javascript library used to build user interfaces.
+SASS - An extension of CSS that enables the use of variables, mixins, nested rules, and more.
+Javascript - A general programming language most often used for backend developing. 
+SCSS - A CSS preprocessor that adds advanced features to CSS.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technological Information 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To run the Test Dummy App locally follow these instructions :
 
-### `npm test`
+1. Clone the repository from GitHub
+2. Install Node.js & npm ( Node Package Manager) onto your machine
+3. Navigate to the project directory in the terminal 
+4. Run the command 'npm install' to install the necessary dependencies.
+5. Run the command 'npm start' to start the development server
+6. Open your browser & access 'http://localhost3000' to view the application.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Issues 
 
-### `npm run build`
+This Test Dummy App may have some know issues, including :
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Performance - This is a sample application, performance, optimization may not have been the primary focus. 
+2. Scalability - This apps build may not be designed for handling large-scale data or complex functionalities. 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
